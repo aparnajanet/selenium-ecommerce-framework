@@ -5,6 +5,7 @@
     <!-- Register our new Listener -->
     <listeners>
         <listener class-name="utils.TestListener" />
+        <listener class-name="utils.AnnotationTransformer" />
     </listeners>
 
     <test name="Regression Tests">
