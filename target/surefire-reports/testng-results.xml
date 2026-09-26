@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-26T11:12:01 IST" name="E-Commerce Automation Suite" finished-at="2026-09-26T11:12:24 IST" duration-ms="22595">
+    <groups>
+    </groups>
+    <test started-at="2026-09-26T11:12:01 IST" name="Regression Tests" finished-at="2026-09-26T11:12:24 IST" duration-ms="22595">
+      <class name="tests.SauceDemoTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SauceDemoTests@59402b8f]" started-at="2026-09-26T11:12:01 IST" name="setUp" finished-at="2026-09-26T11:12:12 IST" duration-ms="10904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLoginScenarios(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTests@59402b8f]" started-at="2026-09-26T11:12:12 IST" name="testInvalidLoginScenarios" data-provider="invalidLoginData" finished-at="2026-09-26T11:12:13 IST" duration-ms="882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Sorry, this user has been locked out.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTests@59402b8f]" started-at="2026-09-26T11:12:13 IST" name="tearDown" finished-at="2026-09-26T11:12:14 IST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SauceDemoTests@59402b8f]" started-at="2026-09-26T11:12:14 IST" name="setUp" finished-at="2026-09-26T11:12:16 IST" duration-ms="2232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLoginScenarios(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.SauceDemoTests@59402b8f]" started-at="2026-09-26T11:12:16 IST" name="testInvalidLoginScenarios" data-provider="invalidLoginData" finished-at="2026-09-26T11:12:16 IST" duration-ms="538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTests@59402b8f]" started-at="2026-09-26T11:12:16 IST" name="tearDown" finished-at="2026-09-26T11:12:17 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SauceDemoTests@59402b8f]" started-at="2026-09-26T11:12:17 IST" name="setUp" finished-at="2026-09-26T11:12:19 IST" duration-ms="2057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPriceSortingLowToHigh()[pri:0, instance:tests.SauceDemoTests@59402b8f]" started-at="2026-09-26T11:12:19 IST" name="testPriceSortingLowToHigh" finished-at="2026-09-26T11:12:20 IST" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPriceSortingLowToHigh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTests@59402b8f]" started-at="2026-09-26T11:12:20 IST" name="tearDown" finished-at="2026-09-26T11:12:20 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SauceDemoTests@59402b8f]" started-at="2026-09-26T11:12:20 IST" name="setUp" finished-at="2026-09-26T11:12:22 IST" duration-ms="2048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulLoginAndCartUpdate()[pri:0, instance:tests.SauceDemoTests@59402b8f]" started-at="2026-09-26T11:12:22 IST" name="testSuccessfulLoginAndCartUpdate" finished-at="2026-09-26T11:12:23 IST" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLoginAndCartUpdate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTests@59402b8f]" started-at="2026-09-26T11:12:23 IST" name="tearDown" finished-at="2026-09-26T11:12:24 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SauceDemoTests -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- E-Commerce Automation Suite -->
+</testng-results>
